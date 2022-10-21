@@ -5,8 +5,8 @@ from flask_migrate import Migrate
 from flask_login import LoginManager
 
 
-app = Flask(__name__)
-
+application = Flask(__name__)
+app = application
 #############################################################################
 ############ CONFIGURATIONS (CAN BE SEPARATE CONFIG.PY FILE) ###############
 ###########################################################################
